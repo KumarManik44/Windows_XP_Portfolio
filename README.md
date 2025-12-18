@@ -29,17 +29,14 @@ To run this project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/KumarManik44/Windows_XP_Portfolio.git](https://github.com/KumarManik44/Windows_XP_Portfolio.git)
+   git clone (https://github.com/KumarManik44/Windows_XP_Portfolio.git)
    cd Windows_XP_Portfolio
-
-
 
 2. **Install dependencies**
 ```bash
 npm install
 
 ```
-
 
 3. **Start the development server**
 ```bash
