@@ -72,6 +72,3 @@ To personalize the portfolio content:
 ---
 
 *Built with nostalgia by Kumar.*
-This is the professional way to handle it. Any time you push a code change to GitHub, your live site will update automatically!
-
-```
