@@ -5,10 +5,9 @@ export default function ContactApp() {
                 <p className="mb-4 font-bold text-center">Resume.txt</p>
                 <br />
                 <p>--- CONTACT INFORMATION ---</p>
-                <p>Name: Kumar</p>
-                <p>Role: AI Engineer & Frontend Architect</p>
-                <p>Location: Bangalore</p>
-                <p>Email: kumar@example.com</p>
+                <p>Name: Kumar Manik</p>
+                <p>Role: AI Engineer</p>
+                <p>Email: kumar2000.manik@gmail.com</p>
                 <br />
                 <p>--- WORK EXPERIENCE ---</p>
                 <br />
