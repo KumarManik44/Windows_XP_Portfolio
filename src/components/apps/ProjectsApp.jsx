@@ -2,10 +2,26 @@ import { Monitor, Code, ExternalLink } from 'lucide-react';
 
 export default function ProjectsApp() {
     const projects = [
-        { title: "AI Portfolio", desc: "This website itself! React + Vite + Framer Motion.", tech: ["React", "Tailwind"] },
-        { title: "E-Commerce", desc: "Next.js shop with Stripe integration.", tech: ["Next.js", "Stripe"] },
-        { title: "Chat Bot", desc: "LLM interface using Vercel AI SDK.", tech: ["TypeScript", "OpenAI"] },
-        { title: "Dashboard", desc: "Analytics dashboard with D3.js.", tech: ["D3", "React"] },
+        {
+            title: "Claire - Voice AI",
+            desc: "Persistent voice assistant with long-term memory (RAG+FAISS) and low-latency pipeline (Deepgram/Gemini/ElevenLabs).",
+            tech: ["RAG", "FAISS", "Deepgram", "Gemini", "ElevenLabs"]
+        },
+        {
+            title: "F1 Race Predictor",
+            desc: "ML pipeline predicting race outcomes with 93.9% CatBoost accuracy from 1,738 race results. Deployed on Streamlit.",
+            tech: ["CatBoost", "MLflow", "Streamlit", "Python"]
+        },
+        {
+            title: "News Summarizer RAG",
+            desc: "Real-time news summarization system using FastAPI, Streamlit, and vector search (FAISS) for confidence-scored Q&A.",
+            tech: ["FastAPI", "RAG", "FAISS", "Streamlit"]
+        },
+        {
+            title: "Windows XP Portfolio",
+            desc: "This nostalgic portfolio website built with React, Vite, and Cloudflare.",
+            tech: ["React", "Vite", "Tailwind"]
+        },
     ];
 
     return (

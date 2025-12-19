@@ -2,9 +2,14 @@ import { Globe, ArrowLeft, ArrowRight, RefreshCw, Home, Search } from 'lucide-re
 
 export default function SkillsApp() {
     const skills = [
-        { cat: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js"] },
-        { cat: "Backend", items: ["Node.js", "Python", "PostgreSQL", "Designing APIs"] },
-        { cat: "AI / ML", items: ["LLMs", "RAG", "Function Calling", "Prompt Engineering"] },
+        { cat: "Core AI & LLM Systems", items: ["LLMs", "Agentic Systems", "RAG", "Prompt Engineering", "Fine-tuning", "Embeddings"] },
+        { cat: "Machine Learning Foundations", items: ["Supervised/Unsupervised Learning", "Neural Networks", "Feature Engineering", "Model Evaluation"] },
+        { cat: "MLOps & AI Infrastructure", items: ["FastAPI", "Docker", "MLflow", "CI/CD for ML", "Model Monitoring", "Async Pipelines"] },
+        { cat: "Vector Databases & Memory", items: ["FAISS", "ChromaDB", "Pinecone", "Semantic Search"] },
+        { cat: "Voice & Multimodal AI", items: ["Deepgram STT", "ElevenLabs TTS", "Low-Latency Audio Pipelines"] },
+        { cat: "Cloud Deployment", items: ["AWS", "Azure", "Streamlit", "Hugging Face Spaces"] },
+        { cat: "Programming", items: ["Python", "SQL"] },
+        { cat: "Soft Skills", items: ["Collaboration", "Problem-Solving", "Debugging", "System Design", "Rapid Learning"] },
     ];
 
     return (
