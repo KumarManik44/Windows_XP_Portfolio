@@ -1,33 +1,37 @@
 export default function ContactApp() {
     return (
-        <div className="flex flex-col h-full font-mono text-sm">
-            <div className="bg-white flex-1 p-4 overflow-auto outline-none selection:bg-blue-300">
-                <p className="mb-4 font-bold text-center">Resume.txt</p>
-                <br />
-                <p>--- CONTACT INFORMATION ---</p>
-                <p>Name: Kumar Manik</p>
-                <p>Role: AI Engineer</p>
-                <p>Email: kumar2000.manik@gmail.com</p>
-                <br />
-                <p>--- WORK EXPERIENCE ---</p>
-                <br />
-                <p className="font-bold">Elevate Labs - AI/ML Intern (Aug 2025 - Sep 2025)</p>
-                <p>- Implemented Breast Cancer classification pipeline (96.49% accuracy).</p>
-                <p>- Achieved 0.9960 ROC-AUC with precision tuning.</p>
-                <br />
-                <p className="font-bold">Evoastra Ventures - Data Science Intern (Jul 2025 - Aug 2025)</p>
-                <p>- Led cross-functional team bridging business & tech.</p>
-                <p>- Fine-tuned LLM pipeline improving inference precision by 40%.</p>
-                <br />
-                <p>--- CERTIFICATIONS ---</p>
-                <p>- GenAI & AI for Leaders (Udemy)</p>
-                <p>- Advanced ChatGPT Prompt Engineering (Udemy)</p>
-                <p>- Deep Learning with Tensorflow (IBM)</p>
-                <p>- Data Science (IBM)</p>
-                <p>- Mastering AWS Serverless</p>
-                <br />
-                <p>---------------------------</p>
-                <p className="blink text-black">|</p>
+        <div className="flex flex-col h-full font-mono text-sm bg-white">
+            <div className="flex-1 p-2 outline-none overflow-auto whitespace-pre-wrap select-text cursor-text font-courier text-black">
+                {`Resume.txt
+
+--- CONTACT INFORMATION ---
+Name: Kumar Manik
+Role: AI Engineer
+Email: kumar2000.manik@gmail.com
+
+--- WORK EXPERIENCE ---
+
+Elevate Labs - AI/ML Intern (Aug 2025 - Sep 2025)
+- Implemented Breast Cancer classification pipeline (96.49% accuracy).
+- Achieved 0.9960 ROC-AUC with precision tuning.
+
+Evoastra Ventures - Data Science Intern (Jul 2025 - Aug 2025)
+- Led cross-functional team bridging business & tech.
+- Fine-tuned LLM pipeline improving inference precision by 40%.
+
+--- CERTIFICATIONS ---
+- GenAI & AI for Leaders (Udemy)
+- Advanced ChatGPT Prompt Engineering (Udemy)
+- Deep Learning with Tensorflow (IBM)
+- Data Science (IBM)
+- Mastering AWS Serverless
+
+---------------------------
+|`}
+            </div>
+            {/* Status Bar */}
+            <div className="h-6 bg-[#ece9d8] border-t border-gray-300 flex items-center justify-end px-2 text-xs text-black gap-4 select-none">
+                <div className="border-l border-gray-400 pl-2 h-4 flex items-center">Ln 1, Col 1</div>
             </div>
         </div>
     );
