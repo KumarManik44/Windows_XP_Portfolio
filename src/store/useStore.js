@@ -37,8 +37,13 @@ export const useStore = create((set) => ({
     })),
 
     minimizeWindow: (id) => set((state) => ({
-        windows: state.windows.map((w) => w.id === id ? { ...w, minimized: true } : w),
-        activeWindowId: null // simplistic defocus
+        windows: state.windows.map((w) => w.id === id ? { ...w, minimized: true, maximized: false } : w),
+        activeWindowId: null
+    })),
+
+    toggleMaximize: (id) => set((state) => ({
+        windows: state.windows.map((w) => w.id === id ? { ...w, maximized: !w.maximized } : w),
+        activeWindowId: id
     })),
 
     focusWindow: (id) => set((state) => {
