@@ -5,6 +5,34 @@
 @layer base {
   body {
     @apply overflow-hidden m-0 p-0 select-none;
-    font-family: 'Tahoma', sans-serif;
+    font-family: 'Tahoma', 'Verdana', 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: none;
+    /* XP rendered fonts sharply */
   }
+}
+
+/* XP Scrollbar */
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+  background-color: #ece9d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cdcae4;
+  /* Default scrollbar color */
+  border: 1px solid #fff;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #aca899;
+  border-bottom-color: #aca899;
+  box-shadow: inset 1px 1px 0 #f4f4f4, inset -1px -1px 0 #aca899;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #ece9d8;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 13px;
+  height: 13px;
 }
