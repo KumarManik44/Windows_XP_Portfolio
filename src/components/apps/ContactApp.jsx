@@ -39,9 +39,6 @@ Evoastra Ventures - Data Science Intern (Jul 2025 - Aug 2025)
   technical teams, translating requirements into
   deployable systems.
 
---- EDUCATION ---
-Barkatullah University - B.com (Computers)
-
 --- CERTIFICATIONS ---
 - Advanced Prompt Engineering (Udemy)
 - GenAI and Artificial Intelligence (Udemy)
