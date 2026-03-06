@@ -2,12 +2,12 @@ import { Globe, ArrowLeft, ArrowRight, RefreshCw, Home, Search, X } from 'lucide
 
 export default function SkillsApp() {
     const skills = [
-        { cat: "Core AI & LLM Systems", items: ["LLMs", "Agentic Systems", "RAG", "Prompt Engineering", "Fine-tuning", "Embeddings"] },
-        { cat: "Machine Learning Foundations", items: ["Supervised/Unsupervised Learning", "Neural Networks", "Feature Engineering", "Model Evaluation"] },
-        { cat: "MLOps & AI Infrastructure", items: ["FastAPI", "Docker", "MLflow", "CI/CD for ML", "Model Monitoring", "Async Pipelines"] },
-        { cat: "Vector Databases & Memory", items: ["FAISS", "ChromaDB", "Pinecone", "Semantic Search"] },
+        { cat: "LLM & Agentic Systems", items: ["LLMs", "Agentic Architectures", "RAG", "Context & Prompt Engineering", "Embeddings", "Instruction Tuning"] },
+        { cat: "Machine Learning Foundations", items: ["Supervised & Unsupervised Learning", "Neural Networks", "Feature Engineering", "Evaluation Metrics"] },
+        { cat: "AI Infrastructure & MLOps", items: ["FastAPI", "Docker", "MLflow", "Async Pipelines", "Model Monitoring", "CI/CD for ML"] },
+        { cat: "Vector Search & Memory Systems", items: ["FAISS", "ChromaDB", "Pinecone", "Semantic Search", "Long-Term Memory Injection"] },
         { cat: "Voice & Multimodal AI", items: ["Deepgram STT", "ElevenLabs TTS", "Low-Latency Audio Pipelines"] },
-        { cat: "Cloud Deployment", items: ["AWS", "Azure", "Streamlit", "Hugging Face Spaces"] },
+        { cat: "Cloud & Deployment", items: ["AWS", "Azure", "Streamlit", "Hugging Face Spaces"] },
         { cat: "Programming", items: ["Python", "SQL"] },
         { cat: "Soft Skills", items: ["Collaboration", "Problem-Solving", "Debugging", "System Design", "Rapid Learning"] },
     ];
