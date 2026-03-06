@@ -10,6 +10,8 @@ Role: AI Engineer
 Email: kumar2000.manik@gmail.com
 Phone: +91 7999493663
 Location: Bengaluru, Karnataka
+LinkedIn: `}<a href="https://www.linkedin.com/in/kumar2000manik/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">linkedin.com/in/kumar2000manik</a>{`
+GitHub:   `}<a href="https://github.com/KumarManik44" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">github.com/KumarManik44</a>{`
 
 --- SUMMARY ---
 AI Engineer specializing in LLM-powered systems, agentic
@@ -36,6 +38,9 @@ Evoastra Ventures - Data Science Intern (Jul 2025 - Aug 2025)
 - Acted as the bridge between business stakeholders and
   technical teams, translating requirements into
   deployable systems.
+
+--- EDUCATION ---
+Barkatullah University - B.com (Computers)
 
 --- CERTIFICATIONS ---
 - Advanced Prompt Engineering (Udemy)
