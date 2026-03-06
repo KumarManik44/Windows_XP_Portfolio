@@ -3,9 +3,9 @@ import { Monitor, Code, ExternalLink, ChevronDown, ChevronUp } from 'lucide-reac
 export default function ProjectsApp() {
     const projects = [
         {
-            title: "Claire - Voice AI",
-            desc: "Persistent voice assistant with long-term memory (RAG+FAISS) and low-latency pipeline.",
-            tech: ["RAG", "FAISS", "Deepgram", "Gemini"]
+            title: "Claire - Persistent Voice AI",
+            desc: "Persistent-memory voice assistant eliminating LLM context reset via RAG+FAISS and auto historical context injection.",
+            tech: ["RAG", "FAISS", "Deepgram", "Gemini Flash", "ElevenLabs"]
         },
         {
             title: "F1 Race Predictor",
@@ -21,6 +21,16 @@ export default function ProjectsApp() {
             title: "Windows XP Portfolio",
             desc: "This nostalgic portfolio website built with React, Vite, and Cloudflare.",
             tech: ["React", "Vite", "Tailwind"]
+        },
+        {
+            title: "Breast Cancer Classifier",
+            desc: "End-to-end ML pipeline on Wisconsin dataset achieving 96.49% accuracy and 0.996 ROC-AUC.",
+            tech: ["Scikit-learn", "Python", "MLflow"]
+        },
+        {
+            title: "Fine-tuned LLM Pipeline",
+            desc: "Custom embeddings + Azure-based storage pipeline improving inference precision by 40%.",
+            tech: ["LLM", "Azure", "Embeddings", "Python"]
         },
     ];
 
